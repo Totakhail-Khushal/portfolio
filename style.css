@@ -98,17 +98,17 @@ header{
     justify-content: space-between;
     font-weight: 700;
     font-size: 30px;
-  position: relative;
-  font-family: sans-serif;
-  text-transform: uppercase;
-  letter-spacing: 4px;
-  overflow: hidden;
-  background: linear-gradient(90deg, #000, #fff, #000);
-  background-repeat: no-repeat;
-  background-size: 80%;
-  animation: animate 7s linear infinite;
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: rgba(255, 255, 255, 0);
+     position: relative;
+    font-family: sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    overflow: hidden;
+    background: linear-gradient(90deg, #000, #fff, #000);
+    background-repeat: no-repeat;
+    background-size: 80%;
+    animation: animate 9s linear infinite;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: rgba(255, 255, 255, 0);
 }
 
 @keyframes animate {
@@ -127,10 +127,9 @@ header{
 /* section card */
 
 .card-img{
-    background-image:linear-gradient(rgba(0, 0, 0, 0.664),rgba(8, 8, 8, 0.349)) , url(/images/images/khushal.JPG);
+    background-image:linear-gradient(rgba(36, 29, 29, 0.664),rgba(65, 54, 54, 0.349)) , url(./images/images/khushal.JPG);
     background-position: center;
     background-size: cover;
-    /* height: 400px; */
     display: flex;
     justify-content: flex-end;
     padding: 30px;
