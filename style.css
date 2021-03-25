@@ -62,7 +62,7 @@ nav ul li a:hover{
 
 
 
-<!--header-->
+/* header */
 header{
     min-height: 50vh;
     display: flex;
@@ -71,12 +71,11 @@ header{
     background-color: rgb(233, 218, 218);
 }
 .intro{
-    background: url(/images/web-1.jpg);
+
+    background:  linear-gradient(to top, #2c3e50c0, #bdc3c76e),url(/images/web-1.jpg);
     background-repeat: no-repeat;
-    background-size: 55%;
-    background: #bdc3c7;
-    background: -webkit-linear-gradient(to top, #2c3e50, #bdc3c7);  
-    background: linear-gradient(to top, #2c3e50, #bdc3c7);  
+    background-size: cover; 
+   background-position: center;
     overflow: hidden;
     padding: 100px 0;
 }
@@ -121,7 +120,12 @@ header{
   }
 }
 
+
+
+
+/* section card about me */
 /* section card */
+
 .card-img{
     background-image:linear-gradient(rgba(0, 0, 0, 0.664),rgba(8, 8, 8, 0.349)) , url(/images/images/khushal.JPG);
     background-position: center;
@@ -149,21 +153,49 @@ header{
 
 
 
-/* section card*/
-.slide-show{
-    margin: 0 auto;
-    margin-bottom: 500px;
-    width: 700px;
-    height: 600px;
-    padding-top: 10px;
-}
-.slide-show img{
-    height: 700px;
-}
+/* card my PROJECTD */
 
+.container{
+    background-color: rgb(105, 101, 77);
+    display: flex;
+    /* justify-content: center; */
+    /* align-items: center; */
+    min-height: 50vh;
+
+}
+.card-wrapper{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: ;
+}
+.card{
+    display: flex;
+    gap: 20px;
+}
+.card-title {
+    font-size: 25px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding: 10px;
+}
+.card img{
+    height: 300px;
+    width: 100%;
+}
+.card p{
+    height: 200px;
+    overflow: auto;
+}
+.contact-img{
+    background:  linear-gradient(to top, #3f454bc0, #545f59a1),url(/images/favicon.ico);
+
+}
 
 
 /* footer */
+/* footer */
+
 footer {
     z-index: 1;
     margin: 0;
@@ -185,14 +217,14 @@ footer {
     margin:0 20px;
     width: 70px;
     height: 70px;
-    background-color: #ccc;
+    background-color: rgb(93, 73, 73);
     border-radius: 50px;
     box-shadow: 6px 6px 12px rgba(0,0,0,15)
-               -6px -6px 12px rgba(255,255,255,.1);
+               -6px -6px 12px rgba(255, 255, 255, 0.815);
     overflow: hidden;
-    font-size: 28px;
+    font-size: 35px;
     display: flex;
     align-items: center;
     justify-content: center;
-    color: rgb(122, 104, 104);
+    color: rgb(184, 170, 170);
 }
